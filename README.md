@@ -54,3 +54,13 @@
 ### Footer Links
 
 - In the "Footer Links" section, add an unordered list beneath the `h3` element. The unordered list should have a class of `icon-list`. Inside the unordered list, add three list items. Each list item should have a class of `icon`. Every list item should have an anchor link nested inside. Only add an "#" symbol to the `href`. Find three social media icons to place inside the anchor links, e.g. instagram, linked in, twitter.
+
+#### Image-Sources:
+
+Header-Image2: Photo by <a href="https://unsplash.com/@amutiomi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Miguel A Amutio</a> on <a href="https://unsplash.com/photos/woman-walking-on-body-of-water-carrying-green-surfboard-during-daytime-Jqfcyx7fqzo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Surfboard1: Photo by <a href="https://unsplash.com/@jeremybishop?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jeremy Bishop</a> on <a href="https://unsplash.com/photos/person-on-body-of-water-carrying-red-surfboard-BCMzlf9rA0Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Surfboard2: <a href="https://unsplash.com/@nekhaev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Filipp Nekhaev</a> on <a href="https://unsplash.com/photos/woman-standing-near-sea-holding-white-blue-and-green-surfboard-under-blue-sky-Ycnt8BKlMtY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Surfboard3:Photo by <a href="https://unsplash.com/@a2eorigins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alex Perez</a> on <a href="https://unsplash.com/photos/beige-surfboards-on-the-wall-beside-the-beach-97NK3fiH7xA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

@@ -10,14 +10,13 @@
 }
 
 header {
-  background-image: url(./images/hero.jpg);
+  background-image: url(./images/header_unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: right;
-  height: 10rem;
-  font-size: 1.3rem;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.65);
+  height: 25rem;
+  font-size: 3rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -28,7 +27,7 @@ header h1 {
 }
 
 main {
-  margin-top: 13rem;
+  margin-top: 30rem;
 }
 
 a[target="_blank"]::after {
@@ -37,7 +36,9 @@ a[target="_blank"]::after {
 }
 
 h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 li {
@@ -46,10 +47,14 @@ li {
 
 .description,
 .information,
+.products,
 .contact {
-  margin: 1rem;
+  margin: 4rem;
 }
 
+.description {
+  text-align: justify;
+}
 .cards {
   display: flex;
   flex-direction: column;
@@ -57,7 +62,7 @@ li {
 }
 
 .product-card {
-  margin: 0.5rem 0.5rem 0 0.5rem;
+  margin: 2rem;
   border: 1px solid rgba(128, 128, 128, 0.65);
 }
 
@@ -71,14 +76,9 @@ li {
 }
 
 .products img {
-  width: 15rem;
-  height: 10rem;
+  width: 20rem;
+  height: 15rem;
   padding: 0.5rem;
-}
-
-.products h2 {
-  width: 100%;
-  text-align: center;
 }
 
 table {
@@ -120,8 +120,8 @@ h3 {
 }
 
 input,
-textarea,
-.submit-btn {
+textarea {
+  margin: 0.5rem 0;
   padding: 0.5rem;
   border: 1px solid rgba(128, 128, 128, 0.65);
 }
@@ -130,22 +130,26 @@ input:focus {
   outline-color: blue;
 }
 
-.submit-btn {
-  width: 10rem;
-  margin-top: 0.5rem;
-  background: none;
+button {
+  width: 20vw;
+  height: 5vh;
+  margin: 2rem auto;
+  background-color: black;
+  color: rgb(206, 202, 202);
+  font-size: large;
 }
 
 footer {
   background-color: rgba(128, 128, 128, 0.32);
   height: 15rem;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .icon-list {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .icon {
@@ -153,13 +157,18 @@ footer {
   font-size: 1.8rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 950px) {
   .cards {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-around;
   }
   header h1 {
     padding-right: 7rem;
+  }
+
+  .information h2,
+  .contact h2 {
+    text-align: left;
   }
 }
