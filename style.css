@@ -167,6 +167,10 @@ footer {
     padding-right: 7rem;
   }
 
+  .description {
+    text-align: center;
+  }
+
   .information h2,
   .contact h2 {
     text-align: left;
